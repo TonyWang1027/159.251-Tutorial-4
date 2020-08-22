@@ -12,4 +12,12 @@ public class TestCalc {
         int value2 = 5;
         assertEquals(15, calc.add(value1, value2));
     }
+
+    @Test
+    public void testSubtractTwoValues() {
+        Calc calc = new Calc();
+        int value1 = 40;
+        int value2 = 10;
+        assertEquals(value1-value2, calc.subtract(value1, value2));
+    }
 }
