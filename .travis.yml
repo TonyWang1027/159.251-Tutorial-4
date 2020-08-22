@@ -1,0 +1,2 @@
+language: java
+scropt: mvn clean test
